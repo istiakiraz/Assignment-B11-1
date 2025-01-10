@@ -2,6 +2,10 @@
 
 /* font-family: "Fira Sans", serif; */
 
+.full-bg{
+    background-color: #F5F5F5;
+}
+
 /* nav style */
 
 nav{
@@ -168,4 +172,27 @@ main{
     border: none;
     cursor: pointer;
     box-sizing: border-box; 
+}
+
+/* Dr. Muhammad Yunus page */
+.yunus-page{
+    padding: 48px 24px 48px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #FFFFFF;
+    border: 100;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 26px 35px ;
+    margin-bottom: 80px;
+
+
+}
+.yunus-h{
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0E0E0ECC;
+    margin-bottom: 4px;
+    margin-top: 12px;
 }
