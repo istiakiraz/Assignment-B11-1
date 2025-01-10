@@ -73,3 +73,99 @@ header{
     cursor: pointer;
     box-sizing: border-box;
 }
+
+/* main section style */
+
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* page 2 style */
+.main-2-box{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.main-2-h{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.main-2-p{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0EB3;
+    margin-top: 24px;
+}
+.main-2-subbox-1{
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #5490F533;
+}
+
+.main-2-subbox-2{
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #C6E4D6;
+}
+.main-2-subbox-3{
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #F7EBCF;
+}    
+
+.main-2-subbox-h{
+    font-family: "Fira Sans", serif;
+    color: #0E0E0ECC;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.main-2-subbox-p{
+    font-family: "Fira Sans", serif;
+    color: #0E0E0EB3;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.main-2-btn-1{
+    font-family: "Fira Sans", serif;
+    background-color: #5490F5;
+    font-weight: 600;
+    font-size: 16px;
+    color:#FFFFFF;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.main-2-btn-2{
+    font-family: "Fira Sans", serif;
+    background-color: #09A15C;
+    font-weight: 600;
+    font-size: 16px;
+    color:#FFFFFF;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;    
+}
+.main-2-btn-3{
+    font-family: "Fira Sans", serif;
+    background-color: #FFC239;
+    font-weight: 600;
+    font-size: 16px;
+    color:#FFFFFF;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box; 
+}
