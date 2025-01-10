@@ -7,8 +7,8 @@
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 31px 160px;
+    justify-content: space-between;
+    
 }
 
 .nav-title{
@@ -29,6 +29,47 @@ nav{
     padding: 15px 30px 15px 30px;
     border-radius: 8px;
     border-color: #006A50;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* first page style */
+.first-page{
+    display: flex;
+    justify-content: space-around;
+    background-color: #C6E4D6;
+    padding: 100px 80px;
+    border-radius: 24px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.first-page-p{
+    font-family: "Fira Sans", serif;
+    color: #0E0E0E80;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+
+.first-page-h{
+    font-family: "Fira Sans", serif;
+    color: #0E0E0E;
+    font-weight: 700;
+    font-size: 56px;
+}
+.first-page-btn{
+    font-family: "Fira Sans", serif;
+    background-color: #006A50;
+    font-weight: bold;
+    font-size: 18px;
+    color:#FFFFFF;
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    border: none;
     cursor: pointer;
     box-sizing: border-box;
 }
