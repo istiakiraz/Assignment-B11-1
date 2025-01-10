@@ -196,3 +196,70 @@ main{
     margin-bottom: 4px;
     margin-top: 12px;
 }
+
+/* Recent News */
+
+.recent-h{
+    font-family: "Fira Sans", serif;
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+}
+.recent-p{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0EB3;
+}
+
+.recent-box-1{
+    display: flex;
+    gap: 32px;
+    padding: 48px 24px 48px 24px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background: #FFFFFF;
+    border: 100;
+
+}
+.time{
+    display: flex;
+    gap: 12px;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0EB3;
+}
+.recent-box-h{
+    color: #0E0E0ECC;
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.recent-box-p{
+    color: #0E0E0EB3;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+.satelite-img{
+    border-radius: 24px;
+}
+.resent-box-btn{
+    font-family: "Fira Sans", serif;
+    background-color:#006A50;
+    font-weight: 600;
+    font-size: 18px;
+    color:#FFFFFF;
+    padding: 13px 26px 13px 26px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.box-gap{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
