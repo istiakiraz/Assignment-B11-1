@@ -263,3 +263,71 @@ main{
     margin-top: 24px;
     margin-bottom: 24px;
 }
+
+/* hover style */
+.hover-btn:hover{
+    background-color: #e62121;
+}
+
+/* donate style */
+
+.donate{
+    text-align: center;
+}
+.donate-box{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
+}
+
+.donate-box-taka{
+    text-align: center;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #ffffff;
+    
+}
+.donate-box-taka-color{
+    text-align: center;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #C6E4D6
+}
+.donate-h{
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+.donate-p{
+    color: #0E0E0EB3;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.taka{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 0px 40px;
+}
+
+.input-taka{
+    padding: 0 40px 0 40px;
+    width: 1120px;
+    height: 64px;
+    border: none;
+    text-align: center;
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
