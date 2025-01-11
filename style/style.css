@@ -317,6 +317,7 @@ main{
     font-weight: 700;
     font-size: 40px;
     padding: 0px 40px;
+    color: #0E0E0ECC;
 }
 
 .input-taka{
@@ -393,4 +394,44 @@ main{
     border: none;
     cursor: pointer;
     box-sizing: border-box;
+}
+/* footer */
+.footer{
+    max-width: 1600px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 160px 50px 160px;
+    background-color: #FFFFFF
+}
+.footer-h{
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    gap: 23px; 
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+/* Pillars of "Bangladesh 2.0 */
+.Pillars-h{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Fira Sans", serif;
+
+}
+.Pillars-box{
+    display: flex;  
+}
+.Pillars-box-sub{
+    padding: 48px 24px 48px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #C6E4D6;
+    border: 100;
 }
